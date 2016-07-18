@@ -19,7 +19,7 @@ WARN = -Wall
 OPT = -O3
 
 # Flags passed to the C++ compiler.
-CFLAGS = -isystem $(GTEST)/include $(WARN) -std=c++11
+CFLAGS = $(WARN) $(OPT) -std=c++11
 ifeq ($(shell uname), Darwin)  # Apple clang version 4.0
 	CFLAGS += -stdlib=libc++
 endif
