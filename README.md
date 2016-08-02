@@ -29,6 +29,17 @@ Evaluation
 
 `./hmm --output [trained_model_dir] --data [labeled_sequences] --pred /tmp/pred`
 
+Example
+-------
+
+* Learn an HMM with 3 states on sample.txt using the anchor algorithm:
+
+`./hmm --output /tmp/anchor --data sample.txt --train --unsup anchor --states 3`
+
+* Test the model on labeled data sample_answer.txt:
+
+`./hmm --output /tmp/anchor --data sample_answer.txt --pred /tmp/pred`
+
 More Details
 ------------
 Type `./hmm` or `./hmm -h` or `./hmm --help` to see an option menu like this:

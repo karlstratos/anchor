@@ -1,0 +1,3 @@
+the__<label>__D cat__<label>__N chased__<label>__V the__<label>__D mouse__<label>__N
+the__<label>__D dog__<label>__N chased__<label>__V the__<label>__D cat__<label>__N
+the__<label>__D mouse__<label>__N chased__<label>__V the__<label>__D dog__<label>__N
